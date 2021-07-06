@@ -3,11 +3,13 @@ import React from 'react'
 import "./SidebarOptions.css"
 
 
-function SidebarOptions() {
+function SidebarOptions({ text, Icon }) {
     return (
         <div className="sidebarOptions">
+            <Icon />
             {/* rfce */}
-            this is an option 
+            <h2>{text}</h2>
+        
         </div>
     )
 }
