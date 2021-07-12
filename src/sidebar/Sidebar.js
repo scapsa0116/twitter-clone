@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './Sidebar.css'
 import TwitterIcon from '@material-ui/icons/Twitter';
 import SidebarOptions from '../sidebar/SidebarOptions'
@@ -9,11 +9,13 @@ import EmailIcon from '@material-ui/icons/Email';
 import ListAltIcon from '@material-ui/icons/ListAlt';
 import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
+import { Button } from '@material-ui/core'
+import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';
 
-import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';export class Sidebar extends Component {
-    render() {
+function Sidebar()  {
+    
         return (
-            <div>
+            <div className="sidebar">
                 <TwitterIcon />
                 <SidebarOptions active Icon={HomeIcon} text="Home"/>
                 <SidebarOptions Icon={SearchIcon} text="Search"/>
@@ -23,9 +25,10 @@ import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';export 
                 <SidebarOptions Icon={ListAltIcon} text="Lists"/>
                 <SidebarOptions Icon={PersonOutlineIcon} text="Profile"/>
                 <SidebarOptions Icon={MoreHorizIcon} text="More"/>
+                <Button variant="outline" className="sidebar_tweet" fullWidth>Tweet</Button>
             </div>
         )
     }
-}
+
 
 export default Sidebar
