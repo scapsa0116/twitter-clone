@@ -1,4 +1,44 @@
 .sidebarOptions {
   display: flex;
+  /* aling the items */
   align-items: center;
+  cursor: pointer;
+  /* when hover-over cursor is changing to the little hand curssor          */
+}
+
+.sidebarOptions
+  > .MuiSvgIcon-root {
+  padding: 20px;
+  /* space from left side */
+}
+
+.sidebarOptions
+  > h2 {
+  font-weight: 800;
+  /* How bold is the text */
+  font-size: 20px;
+  /* how big or small is the text */
+  margin-right: 20px;
+}
+
+.sidebarOptions:hover {
+  background-color: #e8f5fe;
+  /* when hover-over every item is changing the color in the background */
+  border-radius: 30px;
+  /* makes the border of the background color rounded */
+  color: var(
+    --twitter-color
+  );
+  /* color: changes the text color */
+  /* from App.css is define global variables that can be reused */
+  transition: color
+    100ms
+    ease-out;
+  /* slide change of color from background to the text */
+}
+
+.sidebarOption--active {
+  color: var(
+    --twitter-color
+  );
 }

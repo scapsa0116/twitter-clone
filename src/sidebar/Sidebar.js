@@ -15,7 +15,7 @@ import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';export 
         return (
             <div>
                 <TwitterIcon />
-                <SidebarOptions Icon={HomeIcon} text="Home"/>
+                <SidebarOptions active Icon={HomeIcon} text="Home"/>
                 <SidebarOptions Icon={SearchIcon} text="Search"/>
                 <SidebarOptions Icon={NotificationsNoneIcon} text="Notifications"/>
                 <SidebarOptions Icon={EmailIcon} text="Messages"/>
