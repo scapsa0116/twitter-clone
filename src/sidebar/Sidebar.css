@@ -1,3 +1,28 @@
+.sidebar_twitterIcon {
+  color: var(
+    --twitter-color
+  );
+}
+
+.sidebar {
+  border-right: 1px
+    solid
+    var(
+      --twitter-background
+    );
+  /* adds a line along with all buttons from sidebar */
+  flex: 0.3;
+  /* moves the line a bit to right */
+  min-width: 250px;
+  /* shrinks the sidebar  */
+  margin-top: 20px;
+  /* a spase from the top */
+  padding-left: 20px;
+  /* space from left */
+  padding-right: 20px;
+  /* space from right */
+}
+
 .sidebar_tweet {
   background-color: var(
     --twitter-color

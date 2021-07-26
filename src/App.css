@@ -3,3 +3,8 @@ body {
   /* global variable */
   --twitter-background: #e6ecf0;
 }
+
+.App {
+  display: flex;
+  /* display the components in a row  next to each other */
+}
