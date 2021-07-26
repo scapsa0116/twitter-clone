@@ -7,4 +7,14 @@ body {
 .App {
   display: flex;
   /* display the components in a row  next to each other */
+  height: 100vh;
+  /* stretching the line to the bottom */
+  max-width: 1300px;
+  margin-left: auto;
+  /* adds space from left for the whole page */
+  margin-right: auto;
+  /* adds space from right for the whole page */
+  padding: 0
+    10px;
+  /* moves the side bar little to the right */
 }

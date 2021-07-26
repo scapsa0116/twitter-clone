@@ -1,0 +1,35 @@
+.feed {
+  flex: 0.4;
+  border-right: 1px
+    solid
+    var(
+      --twitter-background
+    );
+  min-width: fit-content;
+  /* whatever size the post is it should feet in the feed min size */
+  overflow-y: scroll;
+  /* infinite scrolling */
+}
+
+.feed_header {
+  position: sticky;
+  /* makes the top bar to be stisky to the top  */
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  /* tells to show the bar on top */
+  border: 1px
+    solid
+    var(
+      --twitter-background
+    );
+  padding: 15px
+    20px;
+  /* gives space left and right */
+}
+
+.feed_header
+  > h2 {
+  font-size: 20px;
+  font-weight: 800;
+}

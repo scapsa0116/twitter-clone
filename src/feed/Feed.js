@@ -1,11 +1,15 @@
 // rfce
 import React from 'react'
+import "./Feed.css";
 
 function Feed() {
     return (
-        <div>
+        <div className="feed">
             {/* Header */}
+            <div className="feed_header">
             <h2>Home</h2>
+            </div>
+            
             {/* Tweet box */}
             {/* Posts */}
 
@@ -14,9 +18,53 @@ function Feed() {
             {/* Posts */}
 
             {/* Posts */}
+            <h2>Home</h2>
+            <h2>Home</h2>
+            <h2>Home</h2>
 
-v
-v
+            <h2>Home</h2>
+
+            <h2>Home</h2>
+            <h2>Home</h2>
+
+            <h2>Home</h2>
+            <h2>Home</h2>
+            <h2>Home</h2>
+
+            <h2>Home</h2>
+            <h2>Home</h2>
+            <h2>Home</h2>
+            <h2>Home</h2>
+            <h2>Home</h2>
+
+            <h2>Home</h2>
+
+            <h2>Home</h2>
+            <h2>Home</h2>
+
+            <h2>Home</h2>
+            <h2>Home</h2>
+            <h2>Home</h2>
+
+            <h2>Home</h2>
+            <h2>Home</h2>
+            <h2>Home</h2>
+            <h2>Home</h2>
+            <h2>Home</h2>
+
+            <h2>Home</h2>
+
+            <h2>Home</h2>
+            <h2>Home</h2>
+
+            <h2>Home</h2>
+            <h2>Home</h2>
+            <h2>Home</h2>
+
+            <h2>Home</h2>
+            <h2>Home</h2>
+
+
             
         </div>
     )
