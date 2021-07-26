@@ -1,6 +1,7 @@
 // rfce
 import React from 'react'
 import "./Feed.css";
+import TweetBox from '../tweetBox/TweetBox'
 
 function Feed() {
     return (
@@ -11,6 +12,14 @@ function Feed() {
             </div>
             
             {/* Tweet box */}
+            <TweetBox />
+
+
+
+
+
+
+
             {/* Posts */}
 
             {/* Posts */}

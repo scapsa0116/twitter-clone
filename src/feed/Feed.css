@@ -33,3 +33,14 @@
   font-size: 20px;
   font-weight: 800;
 }
+
+.feed::-webkit-scrollbar {
+  display: none;
+  /* will hide the scroll bar */
+}
+
+.feed {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  /* will hide the scrollbar */
+}
