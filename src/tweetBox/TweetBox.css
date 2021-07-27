@@ -1,4 +1,59 @@
 .tweetBox {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   /* adds space to the bottom , separates from other elements */
+  border-bottom: 8px
+    solid
+    var(
+      --twitter-background
+    );
+  /* adds a border line  */
+  padding-right: 10px;
+}
+
+.tweetBox
+  > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.tweetBox_input {
+  padding: 20px;
+  display: flex;
+}
+
+.tweetBox_input
+  > input {
+  flex: 1;
+  margin-left: 20px;
+  /* space from left */
+  font-size: 20px;
+  /* makes the spelling bigger */
+  border: none;
+  /* doesnt display the border of input */
+}
+
+.tweetBox_tweetButton {
+  background-color: var(
+    --twitter-color
+  ) !important;
+  /* we import bacground color from variable builded in App.css, 
+      important sign is there  because we overwright the background color */
+  border: none !important;
+  color: white !important;
+  /* text color */
+  font-weight: 900 !important;
+  /* makes the text bold */
+  text-transform: inherit !important;
+  /* gets read of capitalize, transforms the text after original tweet text,
+       inherits the value from parent */
+  border-radius: 30px !important;
+  /* makes the botton corners rounded */
+  width: 80px;
+  /* makes the button smaller */
+  height: 40px !important;
+  /* makes the buttun wider */
+  margin-top: 20px !important;
+  /* bring the botton more down wrom the last upper element */
+  margin-left: auto !important;
+  /* pushes the button to the right */
 }
