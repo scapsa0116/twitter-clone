@@ -1,0 +1,9 @@
+/* .
+  post {
+} */
+
+.post_body
+  > img {
+  border-radius: 20px;
+  /* makes corners rounded */
+}
