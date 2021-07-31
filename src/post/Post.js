@@ -18,7 +18,7 @@ function Post({displayname, username, verified, text, image, avatar}) {
                     <div className="post_headerText">
                         <h3>
                             @stela {""}
-                            <span>
+                            <span className="post_headerSpecial">
                             <VerifiedUserIcon className="post_badge" />
 
                             </span>
