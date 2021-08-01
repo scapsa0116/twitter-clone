@@ -10,7 +10,10 @@
     "@testing-library/user-event": "^12.1.10",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-inline-editing": "^1.0.10",
     "react-scripts": "4.0.3",
+    "react-tinder-card": "^1.4.0",
+    "react-twitter-embed": "^3.0.3",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

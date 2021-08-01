@@ -3,6 +3,7 @@ import React from 'react'
 import "./Feed.css";
 import TweetBox from '../tweetBox/TweetBox'
 import Post from '../post/Post.js'
+import Widgets from '../widgets/Widgets.js'
 
 function Feed() {
     return (
@@ -22,6 +23,7 @@ function Feed() {
             <Post />
             <Post />
             
+
 
             
             
