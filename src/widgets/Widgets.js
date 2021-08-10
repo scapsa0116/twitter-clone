@@ -17,14 +17,23 @@ export default function Widgets() {
             /> */}
                 
             </div>
+            <div className="widgets_widgetContainer">
+                <h2>Whats happening?</h2>
+                <TwitterTweetEmbed tweetId={"858551177860055040"} />
+
+                <TwitterTimelineEmbed
+                sourceType="profile"
+                screenName="cleverqazi"
+                options={{ height: 400 }}
+                />
+                <TwitterShareButton
+                url={"https://facebook.com/cleverprogrammer"}
+                options={{ text: "#reactjs is awesome", via: "cleverqazi" }}
+                />
+
+            </div>
             
-<TwitterTweetEmbed
-  tweetId={'933354946111705097'}
-/>
-<TwitterShareButton
-    url={'https://facebook.com/saurabhnemade'}
-    options={{ text: '#reactjs is awesome', via: 'saurabhnemade' }}
-  />
+            
         </div>
     )
 }
