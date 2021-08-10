@@ -10,7 +10,7 @@ import PublishIcon from '@material-ui/icons/Publish';
 const Post = forwardRef(
 ({displayName, username, verified, text, image, avatar}, ref) => {
     return (
-        <div className="post" >
+        <div className="post" ref={ref} >
             <div className="post_avatar">
               <Avatar src={avatar}/>
             </div>
